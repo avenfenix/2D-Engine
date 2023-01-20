@@ -69,7 +69,7 @@ void Engine::Setting(const std::string& title, int width, int height)
 	appWidth = width;
 	appHeight = height;
 	_closed = false;
-	_key_value = -1;
+	_key_pressed = -1;
 }
 
 void Engine::pollEvents() {
@@ -81,19 +81,11 @@ void Engine::pollEvents() {
 			break;
 		}
 		case SDL_KEYDOWN: {
-			switch (event.key.keysym.sym) {
-			case SDLK_SPACE: {
-				_key_value = 1;
-				break;
-			}
-			default: {
-				break;
-			}
-			}
+			_key_pressed = event.key.keysym.sym;
 			break;
 		}
 		default: {
-			_key_value = -1;
+			_key_pressed = -1;
 			break;
 		}
 		}
@@ -134,12 +126,15 @@ void Engine::DrawString(uint32_t x, uint32_t y, const std::string& text, SDL_Col
 	if (!text_texture) {
 		std::cerr << "failed to create text surface\n";
 	}
+	
 	SDL_FreeSurface(text_surface);
 	SDL_Rect rect;
 	SDL_QueryTexture(text_texture, nullptr, nullptr, &rect.w, &rect.h);
 	rect.x = x;
 	rect.y = y;
 	SDL_RenderCopy(renderer, text_texture, nullptr, &rect);
+	SDL_DestroyTexture(text_texture);
+	
 }
 
 bool Engine::loadFont(const std::string& path, int size) {
