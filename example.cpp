@@ -18,6 +18,7 @@ class Test : public Engine {
 	Sprite sprite = Sprite(256,240);
 	uint32_t cycle = 0;
 	uint32_t scanline = 0;
+	bool draw = true;
 	bool frame_complete = false;
 };
 
@@ -41,14 +42,16 @@ void Test::drawRegisters() {
 
 
 void Test::appUpdate() {
-	
+	if (draw){
 	do { drawNoiseOrder(); } while (!frame_complete);
 	frame_complete = false;
-	DrawSprite(25, 25, &sprite);
+	DrawSprite(25, 25, &sprite, 3);
+	DrawSprite(300, 300, &sprite, 2);
 	cycle = 0;
 	scanline = 0;
-	DrawString(0, 0, "hola mundo", COLOR_WHITE);
-	//drawNoiseOrder();
+	}
+	
+	if (getKeyPressed() == KEYS.SPACE) draw = !draw;
 }
 
 void Test::appCreate() {

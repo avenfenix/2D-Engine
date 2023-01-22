@@ -98,22 +98,42 @@ void Engine::clear() const {
 	SDL_RenderClear(renderer); // Limpia el render
 }
 
-
-void Engine::DrawSprite(uint32_t x, uint32_t y, Sprite* sprite) {
+void Engine::DrawSprite(uint32_t x, uint32_t y, Sprite* sprite, int scale) {
 	if (sprite == nullptr) {
 		return;
-	}
-	for (int32_t i = 0; i < sprite->width; i++) {
-		for (int32_t j = 0; j < sprite->height; j++) {
-			Draw(x + i, y + j, sprite->getPixel(i, j));
+	} if (scale == 1) {
+		for (int32_t i = 0; i < sprite->width; i++) {
+			for (int32_t j = 0; j < sprite->height; j++) {
+				Draw(x + i, y + j, sprite->getPixel(i, j));
+			}
 		}
-
 	}
+	else {
+		int32_t w = 0;
+		for (int32_t i = 0; i < (sprite->width ); i++, w+=scale) {
+			int32_t h = 0;
+			for (int32_t j = 0; j < (sprite->height ); j++, h+=scale) {
+				SDL_Color color = sprite->getPixel(i, j);
+				for (int32_t ix = w; ix < (w + scale); ix++) {
+					for (int32_t jy = h; jy < (h + scale); jy++) {
+						Draw(ix + x, jy + y, color);
+					}
+				}
+			}
+
+		}
+	}
+	
 }
+
+void Engine::DrawSprite(uint32_t x, uint32_t y, Sprite* sprite){
+	DrawSprite(x, y, sprite, 1);
+}
+
+
 void Engine::Draw(uint32_t x, uint32_t y, SDL_Color color) {
 	SDL_SetRenderDrawColor(this->renderer, color.r, color.g, color.b, color.a);
 	SDL_RenderDrawPoint(this->renderer, x, y);
-	//SDL_RenderPresent(this->renderer);
 }
 
 void Engine::DrawString(uint32_t x, uint32_t y, const std::string& text, SDL_Color color) {
@@ -138,7 +158,6 @@ void Engine::DrawString(uint32_t x, uint32_t y, const std::string& text, SDL_Col
 }
 
 bool Engine::loadFont(const std::string& path, int size) {
-	//TTF_Font* font = TTF_OpenFont(path.c_str(), size);
 	this->font = TTF_OpenFont(path.c_str(), size);
 	if (!font) {
 		std::cerr << "Error al carga la fuente\n";

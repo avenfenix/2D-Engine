@@ -1,6 +1,5 @@
 #pragma once
 
-
 #include <string>
 #include <inttypes.h>
 #include <vector>
@@ -44,6 +43,8 @@ public:
 	inline int getKeyPressed() const { return _key_pressed; }
 
 public:
+	
+	void DrawSprite(uint32_t x, uint32_t y, Sprite* sprite, int scale);
 	void DrawSprite(uint32_t x, uint32_t y, Sprite* sprite);
 	void Draw(uint32_t x, uint32_t y, SDL_Color color);
 
