@@ -7,6 +7,7 @@
 
 ## ToDo List
 
+- [ ] Instalar OpenGL
 - [ ] Dibujar un cuadrado
 - [ ] Mover cuadrado con teclado
 - [ ] Colisionar cuadrado con elementos (Fisicas)
