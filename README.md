@@ -14,5 +14,6 @@
 ## Referencias
 
 - [SDL library in C/C++ with examples](https://www.geeksforgeeks.org/sdl-library-in-c-c-with-examples/)
+- [libsdl.org](https://www.libsdl.org/)
 
 ## Creado para cualquier proposito.
