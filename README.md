@@ -1,5 +1,9 @@
 # 2D-Engine
 
-## alpha v0.1.0
+## ToDo List
+
+- [ ] Dibujar un cuadrado
+- [ ] Mover cuadrado con teclado
+- [ ] Colisionar cuadrado con elementos (Fisicas)
 
 ## Creado para cualquier proposito.
