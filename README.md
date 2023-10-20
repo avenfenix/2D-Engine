@@ -17,6 +17,7 @@
 ### SDL
 - [SDL library in C/C++ with examples](https://www.geeksforgeeks.org/sdl-library-in-c-c-with-examples/)
 - [libsdl.org](https://www.libsdl.org/)
+- [Setting Up SDL2 in MinGW](https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/mingw/index.php)
 
 ### Motor Grafico
 - [¿Cómo funcionan por dentro los motores de videojuegos? (Game Engines)](https://www.youtube.com/watch?v=t1T0M2mLhzc)
