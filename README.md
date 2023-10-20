@@ -27,4 +27,8 @@
 - [Setup OpenGL with VS Code](https://medium.com/@vivekjha92/setup-opengl-with-vs-code-82852c653c43)
 - [Creating a window](https://learnopengl.com/Getting-started/Creating-a-window)
 
+### MinGW
+
+- [Config MinGw - Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites)
+
 ## Creado para cualquier proposito.
