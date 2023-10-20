@@ -2,7 +2,7 @@
 
 ## Requiere
 
-- [SDL2](https://github.com/avenfenix/SDL2)
+- OpenGL
 
 
 ## ToDo List
