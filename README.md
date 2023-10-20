@@ -1,5 +1,10 @@
 # 2D-Engine
 
+## Requiere
+
+- [SDL2](https://github.com/avenfenix/SDL2)
+
+
 ## ToDo List
 
 - [ ] Dibujar un cuadrado
