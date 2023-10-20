@@ -24,5 +24,7 @@
 
 ### OpenGL
 - [Setup OpenGL in Visual Studio](https://www.youtube.com/watch?v=HzFatL3WT6g)
+- [Setup OpenGL with VS Code](https://medium.com/@vivekjha92/setup-opengl-with-vs-code-82852c653c43)
+- [Creating a window](https://learnopengl.com/Getting-started/Creating-a-window)
 
 ## Creado para cualquier proposito.
