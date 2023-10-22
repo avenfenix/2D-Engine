@@ -10,6 +10,7 @@
 - [x] Setting Up SDL2
 - [x] Dibujar un cuadrado
 - [x] Mover cuadrado con teclado
+- [ ] Arrastrar cuadrado con mouse
 - [ ] Colisionar cuadrado con elementos (Fisicas)
 
 ## Referencias
