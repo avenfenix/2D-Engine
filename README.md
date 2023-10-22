@@ -8,6 +8,8 @@
 - [ ] Dibujar cuadricula
 - [ ] Mover cuadrados solo entre cuadriculas
 - [ ] Arrastrar cuadrado con mouse
+- [ ] Mostrar FPS
+- [ ] Mejorar rendimiento
 - [ ] Colisionar cuadrado con elementos (Fisicas)
 
 ## Referencias
