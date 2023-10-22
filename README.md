@@ -8,7 +8,7 @@
 ## ToDo List
 
 - [x] Setting Up SDL2
-- [ ] Dibujar un cuadrado
+- [x] Dibujar un cuadrado
 - [ ] Mover cuadrado con teclado
 - [ ] Colisionar cuadrado con elementos (Fisicas)
 
