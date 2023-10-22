@@ -6,7 +6,7 @@
 - [x] Dibujar un cuadrado
 - [x] Mover cuadrado con teclado
 - [x] Dibujar cuadricula
-- [x] Mover cuadrados solo entre cuadriculas
+- [x] Mover cuadrado solo entre cuadriculas
 - [ ] Arrastrar cuadrado con mouse
 - [ ] Mostrar FPS
 - [ ] Mejorar rendimiento
