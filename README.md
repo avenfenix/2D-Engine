@@ -5,8 +5,8 @@
 - [x] Setting Up SDL2
 - [x] Dibujar un cuadrado
 - [x] Mover cuadrado con teclado
-- [ ] Dibujar cuadricula
-- [ ] Mover cuadrados solo entre cuadriculas
+- [x] Dibujar cuadricula
+- [x] Mover cuadrados solo entre cuadriculas
 - [ ] Arrastrar cuadrado con mouse
 - [ ] Mostrar FPS
 - [ ] Mejorar rendimiento
