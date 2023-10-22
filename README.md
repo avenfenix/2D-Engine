@@ -21,6 +21,7 @@
 - [Dibujar rectangulos](https://dev.to/noah11012/using-sdl2-drawing-rectangles-3hc2)
 - [Drag and Drop](https://gigi.nullneuron.net/gigilabs/sdl2-drag-and-drop/)
 - [Mover rectangulos con teclas](https://stackoverflow.com/questions/55083984/how-to-move-a-rectangle-on-key-press-in-sdl2-using-a-method)
+- [Box Collision detection](https://gigi.nullneuron.net/gigilabs/sdl2-bounding-box-collision-detection/)
 
 ### Motor Grafico
 - [¿Cómo funcionan por dentro los motores de videojuegos? (Game Engines)](https://www.youtube.com/watch?v=t1T0M2mLhzc)
