@@ -1,10 +1,5 @@
 # 2D-Engine
 
-## Requiere
-
-- OpenGL
-
-
 ## ToDo List
 
 - [x] Setting Up SDL2
