@@ -7,10 +7,10 @@
 - [x] Mover cuadrado con teclado
 - [x] Dibujar cuadricula
 - [x] Mover cuadrado solo entre cuadriculas
-- [ ] Arrastrar cuadrado con mouse
 - [ ] Mostrar FPS
 - [ ] Mejorar rendimiento
-- [ ] Colisionar cuadrado con elementos (Fisicas)
+- [ ] Colisionar cuadrado con elementos
+- [ ] Arrastrar cuadrado con mouse
 
 ## Referencias
 
