@@ -23,6 +23,11 @@
 - [Mover rectangulos con teclas](https://stackoverflow.com/questions/55083984/how-to-move-a-rectangle-on-key-press-in-sdl2-using-a-method)
 - [Box Collision detection](https://gigi.nullneuron.net/gigilabs/sdl2-bounding-box-collision-detection/)
 
+### Mostrar FPS
+
+- [Float -> String](https://www.techieclues.com/blogs/convert-float-to-string-in-cpp)
+- [FPS Counter](https://discourse.libsdl.org/t/fps-counter/13852/2)
+
 ### Motor Grafico
 - [¿Cómo funcionan por dentro los motores de videojuegos? (Game Engines)](https://www.youtube.com/watch?v=t1T0M2mLhzc)
 - [¿Qué rayos es un motor de videojuegos?](https://www.youtube.com/watch?v=zNqoz1w84vY)
